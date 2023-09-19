@@ -8,7 +8,7 @@ export default function Layout({children}) {
   useEffect(() => {
     if (window.location.href.includes('success')) {
       setSelectedProducts([]);
-      setSuccess(false);
+      setSuccess(true);
     }
   }, []);
   return (
